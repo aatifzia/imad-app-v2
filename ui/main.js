@@ -1,7 +1,7 @@
 console.log('Loaded!');
 
 var img = document.getElementById('bullet');
-var marginLeft=o;
+var marginLeft = 0;
 function moveright() {
     marginLeft = marginLeft + 10;
     img.style.marginLeft = marginLeft + 'px';
